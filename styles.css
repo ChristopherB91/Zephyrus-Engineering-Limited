@@ -15,9 +15,18 @@ body {
 }
 
 button {
-  border-radius: 30%;
-  border: black solid 6px;
+  border-radius: 10%;
+  border: white solid 2px;
   color: white;
-  padding: 0px;
-  background-color: black;
+  padding: 15px;
+  background-color: inherit;
+  font-size: large;
+  transition: 0.3s;
+}
+
+button:hover {
+  padding: 20px;
+  background-color: #383838;
+  font-size: x-large;
+  transition: 0.3s;
 }
