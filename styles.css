@@ -1,0 +1,23 @@
+html {
+  all: unset;
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  height: 100%;
+  color: white;
+  background-color: #222222;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+button {
+  border-radius: 30%;
+  border: black solid 6px;
+  color: white;
+  padding: 0px;
+  background-color: black;
+}
